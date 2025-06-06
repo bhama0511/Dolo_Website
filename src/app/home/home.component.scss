@@ -1,0 +1,156 @@
+.dolo-home {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+ //padding: 0 5vw;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+  }
+
+  .hero {
+    background-color: #e3f3fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3vw;
+    gap: 3rem;
+
+    .text-content {
+      flex: 1;
+      h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        color: #140c4b;
+      }
+      p {
+        font-size: 1.2rem;
+        color: #555;
+        line-height: 1.6;
+      }
+    }
+
+    .hero-image {
+      flex: 1;
+      text-align: right;
+      img {
+        max-width: auto;
+        height: 100%;
+        width: 700px;
+      }
+    }
+  }
+
+.how-it-works {
+  padding: 4rem 6vw;
+  background-color: #fff;
+  font-family: 'Inter', sans-serif;
+
+  .video-how {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+    .left {
+      flex: 0 0 52%; // 👈 increased to widen video container
+
+      h2 {
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: #0a0a0a;
+        margin-bottom: 1.5rem;
+      }
+
+      .video-box {
+        width: 100%;
+        height: 340px; // 👈 custom height for figma-matched look
+        background-color: #0a1b33;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .play-button {
+          font-size: 3rem;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding-top: 4.8rem;
+      max-width: 480px;
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: 800;
+        margin-bottom: 2rem;
+        color: #0a0a0a;
+      }
+
+      .step {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 2.4rem;
+
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: contain;
+        }
+
+        .text {
+          h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 0;
+            color: #0a0a0a;
+          }
+
+          p {
+            font-size: 1.1rem;         // ✅ increased for 2-line wrap
+            color: #333;
+            margin: 0.3rem 0 0;
+            line-height: 1.6;          // ✅ to encourage line break
+            max-width: 320px;          // ✅ keeps text from stretching too far
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+  .download-buttons {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    img {
+      height: 50px;
+      cursor: pointer;
+    }
+  }
+}
